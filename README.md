@@ -111,5 +111,5 @@ Repository to learn and test Clojure functional language.
 
 ##**Creating JAR File and Running on JVM**
 
-1. **In the project folder, execute the command: lein uberjar **
+1. **In the project folder, execute the command: lein uberjar**
 2. **Go to target/uberjar and execute the jar File: java -jar name.jar**
