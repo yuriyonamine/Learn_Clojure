@@ -1,8 +1,8 @@
-Learn_Clojure
+#Learn_Clojure
 =============
 Repository to learn and test Clojure functional language.
 
-Summary
+##Summary
 =============
 
 * **It is immutable (Once the variable is defined, you can't change the state)**
@@ -84,8 +84,9 @@ Summary
     ; The map function will return (11, 12, 13, 14)
     ```
 
-* **Best practices**
-    
+##**Best practices**
+=============
+  
     **Close parentheses at the end of the last block line**
     ```clojure
     (defn jogo [vidas palavra acertos] 
@@ -104,4 +105,8 @@ Summary
 					(recur (dec vidas) palavra acertos)))))) ;HERE
 
     ```
-    
+
+##**Creating JAR File and Running on JVM**
+=============
+1. **In the project folder, execute the command: lein uberjar **
+2. **Go to target/uberjar and execute the jar File: java -jar name.jar**
