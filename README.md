@@ -1,10 +1,9 @@
 #Learn_Clojure
-=============
 Repository to learn and test Clojure functional language.
 
-##Summary
-=============
+---
 
+##Summary
 * **It is immutable (Once the variable is defined, you can't change the state)**
 * nil -> same as null(Java)
 * **Methods always has a return. If there is no return defined in your method, when invoking it, it will return nil**
@@ -84,8 +83,9 @@ Repository to learn and test Clojure functional language.
     ; The map function will return (11, 12, 13, 14)
     ```
 
+---
+
 ##**Best practices**
-=============
   
     **Close parentheses at the end of the last block line**
     ```clojure
@@ -106,7 +106,10 @@ Repository to learn and test Clojure functional language.
 
     ```
 
+
+---
+
 ##**Creating JAR File and Running on JVM**
-=============
+
 1. **In the project folder, execute the command: lein uberjar **
 2. **Go to target/uberjar and execute the jar File: java -jar name.jar**
