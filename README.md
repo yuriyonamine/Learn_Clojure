@@ -6,11 +6,11 @@ Repository to learn and test Clojure functional language.
 ##Summary
 * **It is immutable (Once the variable is defined, you can't change the state)**
 * nil -> same as null(Java)
-* **Methods always has a return. If there is no return defined in your method, when invoking it, it will return nil**
-* **Everytime you edit .clj files, you will need to reload it in order to changes to be seen. You can simply stop and start the application again or use the following command: (require '[yourFile.core] :reload)
+* **Methods always has a return. If there is no return defined in your method when you invoke it, it will return nil**
+* **Everytime you edit .clj files, you will need to reload it in order to see the changes. You can simply stop and start the application again or use the following command: (require '[yourFile.core] :reload)
 * **Functions must to be between parentheses**
 
-* **Calling a sum function. First is the operator or the function name followed by parameters (in this case, 2)**
+* **Calling a sum function. At the beginning is the operator or the function name followed by parameters (in this case, 2)**
     ```clojure
     (+ n1 n2) 
     ```
@@ -26,7 +26,7 @@ Repository to learn and test Clojure functional language.
     	(print "You are very old"))
     ```
  
- * **Functions that changes state, there are any collateral effects (Depends on some resource like input of a keyboard) that affect the return of a function, has a '!' at the end of declaration**
+ * **Functions that changes state or there are any collateral effects (Depends on some resource like input of a keyboard) that affect the return of a function has a '!' at the end of declaration**
     ```clojure
     (defn read-char! [] (read-line))	;Declaring the read-char function (read-line is a function that waits some keyboard input)
     (le-letra!) 	;Calling the function
